@@ -1,1 +1,29 @@
 
+# API keys & secrets — CRITICAL, never commit these
+.env
+*.env
+secrets.json
+*_API_KEY*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Colab / Drive artifacts
+.config/
+sample_data/
